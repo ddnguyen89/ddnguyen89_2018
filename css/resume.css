@@ -54,22 +54,40 @@ p.lead {
   font-size: 1.5rem;
 }
 
+/*
 #separator {
   border: none;
-  height: 3px;
-  /* Set the hr color */
-  color: #e2e8f0; /* old IE */
-  background-color: #e2e8f0; /* Modern Browsers */
-}
+  height: 1px;
+   Set the hr color 
+  color: #fff;  old IE 
+  background-color: #fff; Modern Browsers 
+}*/
 
-#home {
+#home, #wedding, #projects, #contact {
   background-image: url(../img/cover.png);
   
   background-attachment: fixed;
 
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+#introduction, #introduction, #interests, #resume {
+  background-color: #000000b3;
+  color: #fff;
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#introduction h2, #interests h2, #resume h3, #resume h2 {
+  color: #fff;
+}
+
+hr {
+  color: #fff;
+  background-color: #fff;
 }
 
 .social-icons a {
@@ -204,12 +222,11 @@ p.lead {
 	transform: translateX(0px);
 }
 
-
-
-
-
-#sideNav .navbar-toggler {
+#sideNav .navbar-toggler, #toggler {
+  border: #000000b3;
+  border-radius: .5em;
   background-color: #000000b3;
+  color: #ffffffb3;
 }
 
 @media (min-width: 992px) {
