@@ -81,6 +81,12 @@ p.lead {
   background-size: cover;
 }
 
+.scrollable-menu {
+  height: auto;
+  max-height: 300px;
+  overflow-x: hidden;
+}
+
 #interests {
   color: #000 !important;
 }

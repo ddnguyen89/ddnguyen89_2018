@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Davis Duy Nguyen ">
 
     <title>Davis Duy Nguyen</title>
 
@@ -20,10 +20,24 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 </head>
 
 <body id="page-top">
+    <script>
+        $(document).ready(function () {
+            if (window.matchMedia("(max-width: 767px)").matches) {
+
+                $("#caca").addClass("scrollable-menu");
+            } else {
+                $("#caca").removeClass();
+                $("#caca").addClass("navbar-nav");
+            }
+
+        });
+    </script>
+    
     <section id="home">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a id="navBar" class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -35,11 +49,10 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav">
-                    <img class="img-fluid img-profile rounded-circle" src="img/profile.jpg" alt="profile">
-
+                <ul id="caca" class="navbar-nav">
+                    <img class="img-fluid img-profile rounded-circle" src="img/profile.jpg" alt="profile"></img>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#introduction">Introduction</a>
                     </li>
@@ -59,6 +72,7 @@
                         <a class="nav-link js-scroll-trigger" href="#contact">contact</a>
                     </li>
                 </ul>
+
             </div>
         </nav>
 
@@ -93,19 +107,27 @@
         <div class="w-100">
             <h2 class="mb-5">Introduction</h2>
             <p>Howdy, welcome to my website. I'm currently a student at Western Governors University completing my
-                Bachelors of Science in Software Development. Prior to Western Governors University, I had attended 
-                Coleman University in pursuit of the same degree. However, due to circumstances, Coleman University 
-                had made the decision to discontinue their operation August 5, 2018. I was able to receive my Associates 
-                of Science in Software Development from Coleman University and was 3 courses away from a Bachelors Degree
+                Bachelors of Science in Software Development. Prior to Western Governors University, I had attended
+                Coleman University in pursuit of the same degree. However, due to circumstances, Coleman University
+                had made the decision to discontinue their operation August 5, 2018. I was able to receive my Associates
+                of Science in Software Development from Coleman University and was 3 courses away from a Bachelors
+                Degree
                 prior to the closure.
-            </p><p>During this time, i had also been working as a sushi chef. It was a good means to financially support my 
-                pursuit for a higher education. Being a sushi chef through out the years has taught me many skills, management, 
-                communication, timing. However, in the same year as Coleman University came to a closure, I was ultimately let
+            </p>
+            <p>During this time, i had also been working as a sushi chef. It was a good means to financially support my
+                pursuit for a higher education. Being a sushi chef through out the years has taught me many skills,
+                management,
+                communication, timing. However, in the same year as Coleman University came to a closure, I was
+                ultimately let
                 go in October, 2018.
-            </p><p>I spent a couple months, reevaluating my life's focus. Gone through a number of different school interviews
-                to find a school that could and would fit my goals and needs. I ultimately chose to go to Western Governors University
-                as it was the most logical option financially. I am glad to say, I am near the end of my goal and am now seeking 
-                a full time software development position. 
+            </p>
+            <p>I spent a couple months, reevaluating my life's focus. Gone through a number of different school
+                interviews
+                to find a school that could and would fit my goals and needs. I ultimately chose to go to Western
+                Governors University
+                as it was the most logical option financially. I am glad to say, I am near the end of my goal and am now
+                seeking
+                a full time software development position.
             </p>
         </div>
     </section>
@@ -179,39 +201,41 @@
             <h2 class="mb-5">Interests</h2>
             <p> </p>
 
-                <div class="card-columns">
-                    <div class="card text-center">
-                      <img src="./img/interests/cycling.jpg" class="card-img-top" alt="cycling">
-                      <footer>Lake Miramar</footer>
-                        <small>Cycling around lake</small>
-                    </div>
+            <div class="card-columns">
+                <div class="card text-center">
+                    <img src="./img/interests/cycling.jpg" class="card-img-top" alt="cycling">
+                    <footer>Lake Miramar</footer>
+                    <small>Cycling around lake</small>
+                </div>
 
-                    <div class="card text-center">
-                        <img src="./img/interests/coffee.jpg" class="card-img-top" alt="coffee">
-                        <footer>The WestBean coffee Roasters</footer>
-                        <small>Coding android game "Click That!" for school</small>
-                      </div>
-                    
-                      <div class="card bg-primary text-center p-3">
-                      <blockquote class="blockquote mb-0">
-                        <p>Researching new technology trends, anything moving on wheels, watching movie and television shows,
-                            playing video games, building and putting things together, taking apart and fixing things, playing
+                <div class="card text-center">
+                    <img src="./img/interests/coffee.jpg" class="card-img-top" alt="coffee">
+                    <footer>The WestBean coffee Roasters</footer>
+                    <small>Coding android game "Click That!" for school</small>
+                </div>
+
+                <div class="card bg-primary text-center p-3">
+                    <blockquote class="blockquote mb-0">
+                        <p>Researching new technology trends, anything moving on wheels, watching movie and television
+                            shows,
+                            playing video games, building and putting things together, taking apart and fixing things,
+                            playing
                             board games, doing puzzles,and coffee. I drink loads of coffee.</p>
-                      </blockquote>
-                    </div>
-                    
-                    <div class="card text-center">
-                      <img src="./img/interests/puzzle.JPG" class="card-img-top" alt="puzzle">
-                      <footer>Home</footer>
-                        <small>Doing a coffee puzzle while drinking coffee</small>
-                    </div>
+                    </blockquote>
+                </div>
 
-                    <div class="card text-center">
-                        <img src="./img/interests/motorcycle.jpg" class="card-img-top" alt="motorcycle">
-                        <footer>Adams Motorsports Park</footer>
-                        <small>Riding a NSR50 around the track with a good buddy</small>
-                      </div>
-                  </div>
+                <div class="card text-center">
+                    <img src="./img/interests/puzzle.JPG" class="card-img-top" alt="puzzle">
+                    <footer>Home</footer>
+                    <small>Doing a coffee puzzle while drinking coffee</small>
+                </div>
+
+                <div class="card text-center">
+                    <img src="./img/interests/motorcycle.jpg" class="card-img-top" alt="motorcycle">
+                    <footer>Adams Motorsports Park</footer>
+                    <small>Riding a NSR50 around the track with a good buddy</small>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -459,16 +483,17 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                            <div class="column"><img class="img-fluid img-profile rounded-circle" src="img/recommendation.jpg"></img>
-                            <div class="card p-3 text-left">
-                                <blockquote class="blockquote mb-0">
-                                    <h4 class="text-center">
-                                        Leticia Rabor
-                                    </h4>
-                                    <hr class="m-0">
-                                    <small class="text-muted">
-                                        Course Instructor<br>Web at Western Governors University
-                                    </small>
+                            <div class="column"><img class="img-fluid img-profile rounded-circle"
+                                    src="img/recommendation.jpg"></img>
+                                <div class="card p-3 text-left">
+                                    <blockquote class="blockquote mb-0">
+                                        <h4 class="text-center">
+                                            Leticia Rabor
+                                        </h4>
+                                        <hr class="m-0">
+                                        <small class="text-muted">
+                                            Course Instructor<br>Web at Western Governors University
+                                        </small>
                                 </div>
                             </div>
                         </div>
@@ -524,7 +549,7 @@
                                 Leticia A. Rabor<br>
                                 <hr class="m-0">
                                 <small>
-                                    For anonymity, Phone and Email can be requested below 
+                                    For anonymity, Phone and Email can be requested below
                                 </small>
                             </div>
                         </div>
