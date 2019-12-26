@@ -81,6 +81,10 @@ p.lead {
   background-size: cover;
 }
 
+#interests {
+  color: #000 !important;
+}
+
 #introduction h2, #interests h2, #resume h3, #resume h2 {
   color: #fff;
 }
