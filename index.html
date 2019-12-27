@@ -27,15 +27,14 @@
 
 <body id="page-top">
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             if (window.matchMedia("(max-width: 767px)").matches) {
 
-                $("#caca").addClass("scrollable-menu");
+                $("#navScroll").addClass("scrollable-menu");
             } else {
-                $("#caca").removeClass();
-                $("#caca").addClass("navbar-nav");
+                $("#navScroll").removeClass();
+                $("#navScroll").addClass("navbar-nav");
             }
-
         });
     </script>
 
@@ -45,14 +44,12 @@
                 <h3 id="spanNav">Davis Nguyen</h3>
             </a>
 
-            <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul id="caca" class="navbar-nav">
+                <ul id="navScroll" class="navbar-nav">
                     <img class="img-fluid img-profile rounded-circle" src="img/profile.jpg" alt="profile"></img>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#introduction">Introduction</a>
@@ -107,28 +104,15 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="introduction">
         <div class="w-100">
             <h2 class="mb-5">Introduction</h2>
-            <p>Howdy, welcome to my website. I'm currently a student at Western Governors University completing my
-                Bachelors of Science in Software Development. Prior to Western Governors University, I had attended
-                Coleman University in pursuit of the same degree. However, due to circumstances, Coleman University
-                had made the decision to discontinue their operation August 5, 2018. I was able to receive my Associates
-                of Science in Software Development from Coleman University and was 3 courses away from a Bachelors
-                Degree
-                prior to the closure.
+            <p>Howdy, welcome to my website. I'm currently a student at Western Governors University completing my Bachelors of Science in Software Development. Prior to Western Governors University, I had attended Coleman University in pursuit of the same
+                degree. However, due to circumstances, Coleman University had made the decision to discontinue their operation August 5, 2018. I was able to receive my Associates of Science in Software Development from Coleman University and was 3 courses
+                away from a Bachelors Degree prior to the closure.
             </p>
-            <p>During this time, i had also been working as a sushi chef. It was a good means to financially support my
-                pursuit for a higher education. Being a sushi chef through out the years has taught me many skills,
-                management,
-                communication, timing. However, in the same year as Coleman University came to a closure, I was
-                ultimately let
-                go in October, 2018.
+            <p>During this time, I had also been working as a sushi chef. It was a good means to financially support my pursuit for a higher education. Being a sushi chef through out the years has taught me many skills, management, communication, timing.
+                However, in the same year as Coleman University came to a closure, I was ultimately let go in October, 2018.
             </p>
-            <p>I spent a couple months, reevaluating my life's focus. Gone through a number of different school
-                interviews
-                to find a school that could and would fit my goals and needs. I ultimately chose to go to Western
-                Governors University
-                as it was the most logical option financially. I am glad to say, I am near the end of my goal and am now
-                seeking
-                a full time software development position.
+            <p>I spent a couple months, reevaluating my life's focus. Gone through a number of different school interviews to find a school that could and would fit my goals and needs. I ultimately chose to go to Western Governors University as it was the
+                most logical option financially. I am glad to say, I am near the end of my goal and am now seeking a full time software development position.
             </p>
         </div>
     </section>
@@ -143,8 +127,8 @@
             <div class="card-columns">
                 <div class="card p-3">
                     <blockquote class="blockquote mb-0 card-body text-center">
-                        <p>Wedding Day
-                            Sunday, October 11, 2020
+                        <p>
+                            Wedding Day Sunday, October 11, 2020
                         </p>
 
                         <small class="text-muted">
@@ -157,13 +141,12 @@
                     <img class="card-img-top" src="./img/wedding/after_proposal2.JPG" alt="after_proposal2">
                 </div>
 
-                <div class="card">
+                <div class="card text-center">
                     <img class="card-img-top" src="./img/wedding/proposal.JPG" alt="proposal">
-                    <div class="card-body">
-                        <h5 class="card-title">Proposal</h5>
-                        <p class="card-text">Kamari beach in Santorini, Greece</p>
-                    </div>
+                    <footer>Kamari beach in Santorini, Greece</footer>
+                    <small>proposal</small>
                 </div>
+
                 <div class="card bg-primary text-white text-center p-3">
                     <blockquote class="blockquote mb-0">
                         <a href="https://www.theknot.com/us/davis-nguyen-and-janika-paguio-oct-2020">
@@ -176,12 +159,12 @@
                         </footer>
                     </blockquote>
                 </div>
-                <div class="card p-3 text-right">
+                <div class="card p-3 text-center">
                     <blockquote class="blockquote mb-0">
                         <h2 style="font-family:Cantata One; color:#8d9195" class="text-center">
                             D&J
                         </h2>
-                        <hr class="m-0">
+                        <hr class="m-2">
                         <small class="text-muted">
                             10.11.2020
                         </small>
@@ -217,11 +200,8 @@
 
                 <div class="card bg-primary text-center p-3">
                     <blockquote class="blockquote mb-0">
-                        <p>Researching new technology trends, anything moving on wheels, watching movie and television
-                            shows,
-                            playing video games, building and putting things together, taking apart and fixing things,
-                            playing
-                            board games, doing puzzles,and coffee. I drink loads of coffee.</p>
+                        <p>Researching new technology trends, anything moving on wheels, watching movie and television shows, playing video games, building and putting things together, taking apart and fixing things, playing board games, doing puzzles,and
+                            coffee. I drink loads of coffee.</p>
                     </blockquote>
                 </div>
 
@@ -261,9 +241,7 @@
             <!-- Objective -->
             <section>
                 <h2 class="mb-5">Objective</h2>
-                <p>Individual with the ability to follow established procedures. Seeking to utilize and improve
-                    technical
-                    expertise in programming analysis, application analysis, and design.</p>
+                <p>Individual with the ability to follow established procedures. Seeking to utilize and improve technical expertise in programming analysis, application analysis, and design.</p>
             </section>
 
             <hr class="m-5">
@@ -279,12 +257,10 @@
                                 <div class="subheading mb-3">Shogun Restaurant</div>
                                 <ul>
                                     <li>Managed daily kitchen operations with numerous staff members.</li>
-                                    <li>Coordinated with various staff members such as front of house, back of
-                                        house,
-                                        managers, and chefs to ensure customer needs are fulfilled and satisfied.
+                                    <li>Coordinated with various staff members such as front of house, back of house, managers, and chefs to ensure customer needs are fulfilled and satisfied.
                                     </li>
-                                    <li>Face of sushi chef for the restaurant. Fostered relationships with frequent
-                                        guests.</li>
+                                    <li>Face of sushi chef for the restaurant. Fostered relationships with frequent guests.
+                                    </li>
                                     <li>Responsible for evaluating customer issues for appropriate compensation.
                                     </li>
                                     <li>Mentored and trained six new sushi chef hires.</li>
@@ -303,12 +279,8 @@
                                 <h3 class="mb-0">Sushi Chef</h3>
                                 <div class="subheading mb-3">Shogun Restaurant</div>
                                 <ul>
-                                    <li>Prepared sushi in a timely fashion, maintaining efficiency, tidiness and
-                                        cleanliness, to
-                                        ensure a safe work environment.</li>
-                                    <li>Collaborated with other chefs to create a monthly special menu to increase
-                                        customer
-                                        acquisition and foster new relationships.</li>
+                                    <li>Prepared sushi in a timely fashion, maintaining efficiency, tidiness and cleanliness, to ensure a safe work environment.</li>
+                                    <li>Collaborated with other chefs to create a monthly special menu to increase customer acquisition and foster new relationships.</li>
                                 </ul>
                                 <div class="resume-date text-md-right">
                                     <span>February 2012 - August 2014</span>
@@ -325,10 +297,8 @@
                                 <div class="subheading mb-3">Z-Sushi Cafe</div>
                                 <ul>
                                     <li>­Started as a sushi helper. Six months later became a sushi chef.</li>
-                                    <li>Continued learning more about sushi, improving skills, building
-                                        relationships
-                                        with
-                                        customers.</li>
+                                    <li>Continued learning more about sushi, improving skills, building relationships with customers.
+                                    </li>
                                     <li>Implemented new electronic equipment for customer entertainment.</li>
                                 </ul>
                                 <div class="resume-date text-md-right">
@@ -388,12 +358,14 @@
                                 <ul class="list-unstyled text-center p-3">
                                     <li>
                                         <img src="img/certs/aplus.png" width="100em">
-                                        <div>Comptia A+ ce</div></img>
+                                        <div>Comptia A+ ce</div>
+                                        </img>
                                     </li>
                                     <p></p>
                                     <li>
                                         <img src="img/certs/projectplus.png" width="100em">
-                                        <div>Comptia Project+</div></img>
+                                        <div>Comptia Project+</div>
+                                        </img>
                                     </li>
                                 </ul>
                             </div>
@@ -404,8 +376,7 @@
                         <div class="resume-item d-flex flex-column flex-md-row justify-content-center">
                             <div class="resume-content">
                                 <h3 class="mb-0 text-center">Technical</h3>
-                                <p class="text-center">Install, maintain, and repair both computer software
-                                    and hardware.</p>
+                                <p class="text-center">Install, maintain, and repair both computer software and hardware.</p>
 
                                 <hr class="m-3">
 
@@ -460,16 +431,12 @@
                             <h3 class="mb-0">Tutor</h3>
                             <div class="subheading mb-3">Coleman University</div>
                             <ul>
-                                <li>­Tutored fellow classmates in aspects of coding and design. Held multiple study
-                                    sessions with
-                                    several students to prepare for exams and testing. Helped and problem solved many
-                                    issues students
-                                    had with their program.</li>
+                                <li>­Tutored fellow classmates in aspects of coding and design. Held multiple study sessions with several students to prepare for exams and testing. Helped and problem solved many issues students had with their program.</li>
                             </ul>
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span>January 2018 - August 2018</span>
-                            <div class="subheading mb-3"> San Diego, CA</div>
+                            <div class="resume-date text-md-right">
+                                <span>January 2018 - August 2018</span>
+                                <div class="subheading mb-3"> San Diego, CA</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -484,9 +451,8 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                            <div class="column"><img class="img-fluid img-profile rounded-circle"
-                                    src="img/recommendation.jpg"></img>
-                                <div class="card p-3 text-left">
+                            <div class="column"><img class="img-fluid img-profile rounded-circle" src="img/recommendation.jpg"></img>
+                                <div class="card p-3 mt-3 text-left">
                                     <blockquote class="blockquote mb-0">
                                         <h4 class="text-center">
                                             Leticia Rabor
@@ -506,40 +472,19 @@
                                     "Dear Hiring Manager,
                                 </p>
                                 <p>
-                                    We all know that the most gifted students are those who unveil the joy of continuous
-                                    learning and be introduced to a world in which anything is possible. There is not a
-                                    student that I know who displays this gift more than Davis Nguyen in the School of
-                                    Software Development. He has a remarkable ability to tackle any projects I give him.
-                                    It
-                                    is my belief that Mr. Nguyen is the best and most obvious choice for the currently
-                                    available Software Development position.
+                                    We all know that the most gifted students are those who unveil the joy of continuous learning and be introduced to a world in which anything is possible. There is not a student that I know who displays this gift more than Davis Nguyen in the School of
+                                    Software Development. He has a remarkable ability to tackle any projects I give him. It is my belief that Mr. Nguyen is the best and most obvious choice for the currently available Software Development position.
                                 </p>
                                 <p>
-                                    Mr. Nguyen is passionate about software development and his passion is contagious
-                                    among
-                                    his peers. I have known Mr. Nguyen for the past 5 years, two of which was during the
-                                    times he attended Coleman University. As a Software Development Program Chair and a
-                                    professor, I have had an opportunity to observe his participation and interaction in
-                                    class and to evaluate Mr. Nguyen’s knowledge of the subject matter. His energy and
-                                    the
-                                    tremendous effort he put forth to clearly communicate technical methods, best
-                                    practices,
-                                    theories and concepts in his projects has been exceptional.
-                                    Davis Nguyen is well equipped to grow from challenges that he is presented with. He
-                                    is
-                                    well respected by his peers and is always willing to help when needed. There is not
-                                    a
-                                    more caring, dedicated student on this campus, and the stellar evaluations of his
-                                    academic achievement are all the evidence needed to prove his qualifications for the
-                                    Software Development position.
+                                    Mr. Nguyen is passionate about software development and his passion is contagious among his peers. I have known Mr. Nguyen for the past 5 years, two of which was during the times he attended Coleman University. As a Software Development Program Chair
+                                    and a professor, I have had an opportunity to observe his participation and interaction in class and to evaluate Mr. Nguyen’s knowledge of the subject matter. His energy and the tremendous effort he put forth to clearly
+                                    communicate technical methods, best practices, theories and concepts in his projects has been exceptional. Davis Nguyen is well equipped to grow from challenges that he is presented with. He is well respected by his
+                                    peers and is always willing to help when needed. There is not a more caring, dedicated student on this campus, and the stellar evaluations of his academic achievement are all the evidence needed to prove his qualifications
+                                    for the Software Development position.
                                 </p>
                                 <p>
-                                    It is with great pleasure that I highly recommend my past student, Davis Nguyen, for
-                                    the
-                                    currently available Software Development position. I am available to discuss his
-                                    prospective position at your earliest convenience. Please contact me should you wish
-                                    to
-                                    discuss his abilities further."
+                                    It is with great pleasure that I highly recommend my past student, Davis Nguyen, for the currently available Software Development position. I am available to discuss his prospective position at your earliest convenience. Please contact me should you wish
+                                    to discuss his abilities further."
                                 </p>
                                 <p>
                                     Warm Regards,
@@ -566,7 +511,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
         <div class="w-100">
             <h2 class="mb-5">Contact</h2>
-            <div class="card border-dark p-3" style="width: fit-content;">
+            <div class="card border-dark p-3" style="width: max-content;">
                 <form action="https://formspree.io/xjvgoorg" method="POST">
                     <div>
                         <label>
@@ -584,7 +529,6 @@
                 </form>
             </div>
         </div>
-
     </section>
 
 
