@@ -65,7 +65,7 @@ p.lead {
 }*/
 
 #home,
-#wedding,
+#updates,
 #projects,
 #contact {
     background-image: url(../img/cover.jpg);
@@ -80,7 +80,7 @@ p.lead {
 
 @media (max-width: 992px) {
     #home,
-    #wedding,
+    #updates,
     #projects,
     #contact {
         background-image: url(../img/cover.jpg) !important;
