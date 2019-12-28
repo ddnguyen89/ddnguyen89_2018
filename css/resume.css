@@ -113,7 +113,7 @@ p.lead {
 @media (max-width: 992px) {
     #navScroll {
         height: auto;
-        max-height: 350px;
+        max-height: 400px;
         overflow-x: hidden;
     }
 }
