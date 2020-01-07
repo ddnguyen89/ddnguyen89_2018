@@ -12,6 +12,10 @@
         max-width: 100%;
         flex-shrink: 0;
     }
+    #page-top>div {
+        position: absolute;
+        top: 30%;
+    }
 }
 
 
