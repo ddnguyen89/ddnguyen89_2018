@@ -394,104 +394,82 @@ a:active {
     body {
         color: rgba(0, 0, 0, 0.702);
     }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: rgb(52, 58, 64);
-}
-
-#introduction,
-#introduction,
-#interests,
-#resume {
-    background-color: rgba(0, 0, 0, 0.702);
-    color: rgb(255, 255, 255);
-}
-
-#interests {
-    color: rgb(0, 0, 0) !important;
-}
-
-#introduction h2,
-#interests h2,
-#resume h3,
-#resume h2 {
-    color: rgb(255, 255, 255);
-}
-
-hr {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
-}
-
-.social-icons a {
-    background-color: rgba(0, 0, 0, 0.702);
-    color: rgba(255, 255, 255, 0.702) !important;
-}
-
-.social-icons a:hover {
-    background-color: rgb(44, 152, 240);
-}
-
-.dev-icons .list-inline-item i:hover {
-    color: rgb(44, 152, 240);
-}
-
-#sideNav .navbar-nav .nav-item .nav-link,
-#spanNav {
-    color: rgb(0, 0, 0);
-}
-
-#sideNav ul.navbar-nav a:hover,
-a:focus {
-    color: rgb(44, 152, 240) !important;
-}
-
-#sideNav #spanNav:hover,
-#spanNav:focus {
-    color: rgb(44, 152, 240) !important;
-}
-
-
-/* nav animation */
-
-.navbar a::before,
-.navbar a::after,
-#spanNav::before,
-#spanNav::after {
-    color: rgb(44, 152, 240);
-}
-
-#sideNav .navbar-toggler,
-#toggler {
-    border: rgba(0, 0, 0, 0.702);
-    border-radius: .5em;
-    background-color: rgba(0, 0, 0, 0.702);
-    color: rgba(255, 255, 255, 0.702);
-}
-
-.bg-primary {
-    background-color: rgb(242, 243, 247) !important;
-}
-
-.text-primary {
-    color: rgba(0, 0, 0, 0.702) !important;
-}
-
-a {
-    color: rgb(44, 152, 240);
-}
-
-a:hover,
-a:focus,
-a:active {
-    color: rgb(130, 64, 39);
-}
-
-
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: rgb(52, 58, 64);
+    }
+    #introduction,
+    #introduction,
+    #interests,
+    #resume {
+        background-color: rgba(0, 0, 0, 0.702);
+        color: rgb(255, 255, 255);
+    }
+    #interests {
+        color: rgb(0, 0, 0) !important;
+    }
+    #introduction h2,
+    #interests h2,
+    #resume h3,
+    #resume h2 {
+        color: rgb(255, 255, 255);
+    }
+    hr {
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+    }
+    .social-icons a {
+        background-color: rgba(0, 0, 0, 0.702);
+        color: rgba(255, 255, 255, 0.702) !important;
+    }
+    .social-icons a:hover {
+        background-color: rgb(44, 152, 240);
+    }
+    .dev-icons .list-inline-item i:hover {
+        color: rgb(44, 152, 240);
+    }
+    #sideNav .navbar-nav .nav-item .nav-link,
+    #spanNav {
+        color: rgb(0, 0, 0);
+    }
+    #sideNav ul.navbar-nav a:hover,
+    a:focus {
+        color: rgb(44, 152, 240) !important;
+    }
+    #sideNav #spanNav:hover,
+    #spanNav:focus {
+        color: rgb(44, 152, 240) !important;
+    }
+    /* nav animation */
+    .navbar a::before,
+    .navbar a::after,
+    #spanNav::before,
+    #spanNav::after {
+        color: rgb(44, 152, 240);
+    }
+    #sideNav .navbar-toggler,
+    #toggler {
+        border: rgba(0, 0, 0, 0.702);
+        border-radius: .5em;
+        background-color: rgba(0, 0, 0, 0.702);
+        color: rgba(255, 255, 255, 0.702);
+    }
+    .bg-primary {
+        background-color: rgb(242, 243, 247) !important;
+    }
+    .text-primary {
+        color: rgba(0, 0, 0, 0.702) !important;
+    }
+    a {
+        color: rgb(44, 152, 240);
+    }
+    a:hover,
+    a:focus,
+    a:active {
+        color: rgb(130, 64, 39);
+    }
 }
