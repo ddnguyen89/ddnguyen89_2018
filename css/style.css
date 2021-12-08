@@ -29,7 +29,7 @@
     }
     /*#introduction,
     #introduction,*/
-    #page-top,
+    #head,
     #interests,
     #resume {
         background-color: rgba(0, 0, 0, 0.702);
@@ -158,7 +158,7 @@ p.lead {
 
 
 /*
-#separator {
+.separator {
   border: none;
   height: 1px;
    Set the hr color 
@@ -506,7 +506,7 @@ a:active {
     }
     /*#introduction,
     #introduction,*/
-    #page-top,
+    #head,
     #interests,
     #resume {
         background-color: rgba(0, 0, 0, 0.702);
