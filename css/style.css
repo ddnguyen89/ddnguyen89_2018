@@ -27,8 +27,9 @@
     h6 {
         color: rgb(52, 58, 64);
     }
-    #introduction,
-    #introduction,
+    /*#introduction,
+    #introduction,*/
+    #page-top,
     #interests,
     #resume {
         background-color: rgba(0, 0, 0, 0.702);
