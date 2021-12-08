@@ -78,7 +78,7 @@
         color: rgb(44, 152, 240);
     }
     #sideNav .navbar-toggler,
-    #toggler {
+    #toggler, #submit_button {
         border: rgba(0, 0, 0, 0.702);
         border-radius: .5em;
         background-color: rgba(0, 0, 0, 0.702);
@@ -395,7 +395,7 @@ a:focus {
 }
 
 #sideNav .navbar-toggler,
-#toggler {
+#toggler, #submit_button {
     border: #000000b3;
     border-radius: .5em;
     background-color: #000000b3;
@@ -555,7 +555,7 @@ a:active {
         color: rgb(44, 152, 240);
     }
     #sideNav .navbar-toggler,
-    #toggler {
+    #toggler, #submit_button {
         border: rgba(0, 0, 0, 0.702);
         border-radius: .5em;
         background-color: rgba(0, 0, 0, 0.702);
