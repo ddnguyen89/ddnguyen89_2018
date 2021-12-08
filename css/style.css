@@ -165,6 +165,7 @@ p.lead {
   background-color: #fff; Modern Browsers 
 }*/
 
+/*
 #home,
 #introduction,
 #updates,
@@ -179,7 +180,7 @@ p.lead {
     -moz-background-size: cover;
     -webkit-background-size: cover;
 }
-
+*/
 @media (max-width: 992px) {
     #home,
 	#introduction,
@@ -502,8 +503,9 @@ a:active {
     h6 {
         color: rgb(52, 58, 64);
     }
-    #introduction,
-    #introduction,
+    /*#introduction,
+    #introduction,*/
+    #page-top,
     #interests,
     #resume {
         background-color: rgba(0, 0, 0, 0.702);
